@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAA4E1272C3877AF00133D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA4E1212C3877AF00133D6B /* Assets.xcassets */; };
+		AAA4E1812C41ADC500133D6B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4E1802C41ADC400133D6B /* SecondView.swift */; };
+		AAA4E1832C41AE4C00133D6B /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4E1822C41AE4C00133D6B /* Animator.swift */; };
 		AACB67392C30C8F6002BE41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB67382C30C8F6002BE41A /* AppDelegate.swift */; };
 		AACB673B2C30C8F6002BE41A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB673A2C30C8F6002BE41A /* SceneDelegate.swift */; };
 		AACB673D2C30C8F6002BE41A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB673C2C30C8F6002BE41A /* ViewController.swift */; };
 		AACB67402C30C8F6002BE41A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AACB673F2C30C8F6002BE41A /* Base */; };
-		AACB67422C30C8F8002BE41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACB67412C30C8F8002BE41A /* Assets.xcassets */; };
 		AACB67452C30C8F8002BE41A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AACB67442C30C8F8002BE41A /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAA4E1212C3877AF00133D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Transmission/Example/Example/Assets.xcassets; sourceTree = "<group>"; };
+		AAA4E1802C41ADC400133D6B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		AAA4E1822C41AE4C00133D6B /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		AACB67352C30C8F6002BE41A /* UikitAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UikitAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACB67382C30C8F6002BE41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AACB673A2C30C8F6002BE41A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AACB673C2C30C8F6002BE41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AACB673F2C30C8F6002BE41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AACB67412C30C8F8002BE41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACB67442C30C8F8002BE41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACB67462C30C8F8002BE41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,13 +60,15 @@
 		AACB67372C30C8F6002BE41A /* UikitAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AAA4E1212C3877AF00133D6B /* Assets.xcassets */,
 				AACB67382C30C8F6002BE41A /* AppDelegate.swift */,
 				AACB673A2C30C8F6002BE41A /* SceneDelegate.swift */,
 				AACB673C2C30C8F6002BE41A /* ViewController.swift */,
 				AACB673E2C30C8F6002BE41A /* Main.storyboard */,
-				AACB67412C30C8F8002BE41A /* Assets.xcassets */,
 				AACB67432C30C8F8002BE41A /* LaunchScreen.storyboard */,
 				AACB67462C30C8F8002BE41A /* Info.plist */,
+				AAA4E1802C41ADC400133D6B /* SecondView.swift */,
+				AAA4E1822C41AE4C00133D6B /* Animator.swift */,
 			);
 			path = UikitAnimation;
 			sourceTree = "<group>";
@@ -83,6 +89,8 @@
 			dependencies = (
 			);
 			name = UikitAnimation;
+			packageProductDependencies = (
+			);
 			productName = UikitAnimation;
 			productReference = AACB67352C30C8F6002BE41A /* UikitAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,8 @@
 				Base,
 			);
 			mainGroup = AACB672C2C30C8F6002BE41A;
+			packageReferences = (
+			);
 			productRefGroup = AACB67362C30C8F6002BE41A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACB67422C30C8F8002BE41A /* Assets.xcassets in Resources */,
 				AACB67452C30C8F8002BE41A /* Base in Resources */,
+				AAA4E1272C3877AF00133D6B /* Assets.xcassets in Resources */,
 				AACB67402C30C8F6002BE41A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA4E1832C41AE4C00133D6B /* Animator.swift in Sources */,
 				AACB673D2C30C8F6002BE41A /* ViewController.swift in Sources */,
+				AAA4E1812C41ADC500133D6B /* SecondView.swift in Sources */,
 				AACB67392C30C8F6002BE41A /* AppDelegate.swift in Sources */,
 				AACB673B2C30C8F6002BE41A /* SceneDelegate.swift in Sources */,
 			);
